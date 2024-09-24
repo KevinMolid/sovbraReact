@@ -1,11 +1,13 @@
+import BoxSection from "./components/BoxSection";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
     <>
       <Header />
-      <Hero />
+      <HeroSection />
+      <BoxSection />
     </>
   );
 }

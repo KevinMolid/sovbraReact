@@ -1,9 +1,11 @@
 const Header = () => {
   return (
-    <header className="flex justify-between px-24 py-6 items-baseline">
-      <h1 className="font-medium text-2xl text-sky-500 uppercase">
-        Søvnklinikken
-      </h1>
+    <header className="flex justify-between px-24 py-6 items-center">
+      <img
+        className="w-60"
+        src="src\assets\logo_raw.png"
+        alt="Sovnklinikken logo"
+      />
       <nav>
         <ul className="flex gap-4 uppercase">
           <li>Søvnproblemer</li>
