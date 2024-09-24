@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className="flex justify-between px-24 py-6 items-baseline">
-      <h1 className="font-medium text-2xl text-blue-300 uppercase">
+      <h1 className="font-medium text-2xl text-sky-500 uppercase">
         Søvnklinikken
       </h1>
       <nav>
