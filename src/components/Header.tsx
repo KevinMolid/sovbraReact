@@ -12,13 +12,23 @@ const Header = () => {
       </Link>
       <nav>
         <ul className="flex gap-4 uppercase">
-          <li>Søvnproblemer</li>
-          <li>Behandling</li>
-          <li>Priser</li>
-          <li>Timebestilling</li>
-          <li>Om oss</li>
           <li className="hover:-translate-y-2 transition-all transition-1000">
-            <Link to="/contact">Kontakt</Link>
+            Søvnproblemer
+          </li>
+          <li className="hover:-translate-y-2 transition-all transition-1000">
+            <Link to="/behandling">Behandling</Link>
+          </li>
+          <li className="hover:-translate-y-2 transition-all transition-1000">
+            Priser
+          </li>
+          <li className="hover:-translate-y-2 transition-all transition-1000">
+            Timebestilling
+          </li>
+          <li className="hover:-translate-y-2 transition-all transition-1000">
+            Om oss
+          </li>
+          <li className="hover:-translate-y-2 transition-all transition-1000">
+            <Link to="/kontakt">Kontakt</Link>
           </li>
         </ul>
       </nav>
