@@ -19,7 +19,7 @@ const CtaSection = () => {
         </p>
         <div className="flex gap-6 justify-center mt-4">
           <Button>Kontakt oss</Button>
-          <Button>Bestill time</Button>
+          <Button type="">Bestill time</Button>
         </div>
       </div>
     </section>
