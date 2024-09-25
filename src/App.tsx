@@ -9,6 +9,7 @@ import Footer from "./assets/Footer";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Treatment from "./pages/Treatment";
+import Prices from "./pages/Prices";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="behandling" element={<Treatment />} />
         <Route path="kontakt" element={<Contact />} />
+        <Route path="priser" element={<Prices />} />
         <Route path="*" element={<Home />} />
       </Routes>
       <Footer />

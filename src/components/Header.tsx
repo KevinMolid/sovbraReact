@@ -19,7 +19,7 @@ const Header = () => {
             <Link to="/behandling">Behandling</Link>
           </li>
           <li className="hover:-translate-y-2 transition-all transition-1000">
-            Priser
+            <Link to="/priser">Priser</Link>
           </li>
           <li className="hover:-translate-y-2 transition-all transition-1000">
             Timebestilling
