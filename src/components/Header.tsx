@@ -25,7 +25,7 @@ const Header = () => {
             Timebestilling
           </li>
           <li className="hover:-translate-y-2 transition-all transition-1000">
-            Om oss
+            <Link to="/om">Om oss</Link>
           </li>
           <li className="hover:-translate-y-2 transition-all transition-1000">
             <Link to="/kontakt">Kontakt</Link>
