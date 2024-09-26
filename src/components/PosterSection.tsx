@@ -14,8 +14,8 @@ const PosterSection = ({ children, heading }: PosterSectionInterface) => {
         alt="background image"
       />
       <div className="col-start-1 row-start-1 bg-black/75"></div>
-      <div className="grid grid-cols-3 text-white col-start-1 row-start-1 p-24 gap-4">
-        <h1 className="text-4xl font-medium uppercase text-center col-start-1 row-start-1 col-span-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-white col-start-1 row-start-1 p-12 lg:p-24 gap-4">
+        <h1 className="text-4xl font-medium uppercase text-center col-start-1 row-start-1 col-span-full">
           {heading}
         </h1>
         {children}
