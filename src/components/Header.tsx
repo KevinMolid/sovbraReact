@@ -13,7 +13,7 @@ const Header = () => {
       <nav>
         <ul className="flex gap-4 uppercase">
           <li className="hover:-translate-y-2 transition-all transition-1000">
-            Søvnproblemer
+            <Link to="/sovnproblemer">Søvnproblemer</Link>
           </li>
           <li className="hover:-translate-y-2 transition-all transition-1000">
             <Link to="/behandling">Behandling</Link>
@@ -22,10 +22,10 @@ const Header = () => {
             <Link to="/priser">Priser</Link>
           </li>
           <li className="hover:-translate-y-2 transition-all transition-1000">
-            Timebestilling
+            <Link to="/timebestilling">Timebestilling</Link>
           </li>
           <li className="hover:-translate-y-2 transition-all transition-1000">
-            <Link to="/om">Om oss</Link>
+            <Link to="/omoss">Om oss</Link>
           </li>
           <li className="hover:-translate-y-2 transition-all transition-1000">
             <Link to="/kontakt">Kontakt</Link>

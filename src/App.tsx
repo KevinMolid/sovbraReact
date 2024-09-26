@@ -11,6 +11,8 @@ import Contact from "./pages/Contact";
 import Treatment from "./pages/Treatment";
 import Prices from "./pages/Prices";
 import About from "./pages/About";
+import Booking from "./pages/Booking";
+import Problems from "./pages/Problems";
 
 function App() {
   return (
@@ -18,10 +20,12 @@ function App() {
       <Header />
       <Routes>
         <Route index element={<Home />} />
+        <Route path="sovnproblemer" element={<Problems />} />
         <Route path="behandling" element={<Treatment />} />
-        <Route path="kontakt" element={<Contact />} />
         <Route path="priser" element={<Prices />} />
-        <Route path="om" element={<About />} />
+        <Route path="timebestilling" element={<Booking />} />
+        <Route path="omoss" element={<About />} />
+        <Route path="kontakt" element={<Contact />} />
         <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
